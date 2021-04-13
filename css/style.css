@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:400,500,600&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1,h2,h3,h4,h5,h6,p,a {
+	margin: 0px;	
+	padding: 0px;
+}
+ul,li,ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	 /*color: #fff;*/
+}
+/*Header CSS Starts*/
+.header {
+	padding: 23px 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 0px;
+	margin-left: 32px;
+	text-transform: uppercase;
+	color: #000;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	transition: all linear .3s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+	color: #31d7ce;
+}
+.navbar {
+	padding: 0;
+}
+.navbar-brand {
+	padding: 0;
+}
+/*Header CSS Starts*/
+/*Banner CSS Starts*/
+.banner {
+	background: url(../img/banner.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.overlay {
+	background: rgba(0,0,0,0.3);
+	padding: 323px 0px 354px 0px;
+}
+.b_con h1 {
+	font-size: 70px;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	color: #31d7ce;
+	letter-spacing: 10px;
+	padding-bottom: 60px;
+}
+.b_con a {
+	color: #31d7ce;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	padding: 18px 38px;
+	border:1px solid #d1d1d1;
+	border-radius: 50px;
+	transition: all linear .3s;
+}
+.b_con a:hover {
+	background: #31d7ce;
+	color: #fff;
+}
+
+/*Banner CSS Ends*/
+
+/*About CSS Starts*/
+
+.about {
+	padding: 150px 0px;
+}
+.abt_con h3{
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+.abt_con {
+	margin-left: 47px;
+}
+.abt_con p {
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 27px 0px 30px 0px;
+}
+.abt_con a {
+	background: #31d7ce;
+	color: #fff;
+	padding: 13px 24px;
+	border: 1px solid #fff;
+	border-radius: 40px;
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+	transition: all linear .3s;
+}
+.abt_con a:hover {
+	background: #fff;
+	color: #31d7ce;
+}
+
+/*About CSS Ends*/
+
+/*Services CSS Stasrt*/
+
+.service {
+	padding-bottom: 170px;
+}
+.ser_con .s_con span {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+
+}
+.ser_con .s_con p {
+	font-size: 16px;
+	padding: 20px 0px 0px 0px;
+}
+.ser_con {
+	padding: 56px 47px 54px 47px;
+	transition: all linear .3s;
+}
+.ser_con:hover {
+	box-shadow: 0px 0px 15px 12px #dbf8f6;
+}
+
+
+
+
+
+/*Services CSS Ends*/
+
+/*Works CSS Starts*/
+.works {
+	padding-bottom: 150px;
+}
+
+.works h2 {
+	text-align: center;
+	padding-bottom: 60px;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+.w_img{
+	position: relative;
+	margin-bottom: 20px;
+}
+.img-fluid {
+	width: 100%;
+}
+.w_overlay {
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,.35);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: all linear .3s;
+}
+.w_overlay a{
+	font-size: 10px;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+
+}
+.w_img:hover .w_overlay{
+	opacity: 1;
+}
+
+
+/*Works CSS Ends*/
+
+/*Achievements CSS Starts*/
+.achievements {
+	background: url(../img/blog.jpg)no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 51px 0px 48px 0px;
+
+}
+.a_con h6 {
+	font-size: 30px;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	padding: 22px 0px 18px 0px;
+}
+.a_con p {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 10px;
+	color: #fff;
+}
+.a_con i {
+	color: #fff;
+	font-size: 47px;
+}
+
+/*Achievements CSS Ends*/
+
+/*Blogs CSS Starts*/
+.blog {
+	padding-bottom: 151px;
+}
+.blog h2 {
+	text-align: center;
+	padding: 148px 0px 40px 0px;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+.blog_con h6 {
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+	padding-top: 30px;
+}
+.blog_con p {
+	color: #666666;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 26px 0px 28px 0px;
+}
+.blog_con span {
+	font-size: 13px;
+	font-family: 'Poppins', sans-serif;
+	color: #555555;
+}
+
+
+
+/*Blogs CSS Ends*/
+
+/*Work with CSS Starts*/
+
+.work_with {
+	height: 150px;
+	width: 100%;
+	background: #50d18d;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.work_con {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.work_con h6 {
+	font-size: 25px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	color: #fff;
+}
+.work_con a {
+	font-size: 13px;
+	color: #fff;
+	padding: 20px 34px;
+	border-radius: 50px;
+	background: #4be694;
+	margin-left: 60px;
+}
+
+/*Work with CSS Ends*/
+
+/*Footer with CSS Starts*/
+
+.footer {
+	background: #000415;
+	padding: 85px 0px 52px 0px;
+}
+.f_one {
+    margin: 30px 161px;
+}
+.f_one p{
+	color: #fff;
+	padding-top: 20px;
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+
+}
+.f_two {
+	padding-bottom: 35px;
+	margin-left: 60px;
+}
+.f_two i {
+	font-size: 21px;
+	color: #fff;
+}
+.f_two a {
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+.footer h4 {
+	text-align: center;
+	color: #818181;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 50px;
+
+}
+
+/*Footer with CSS Ends*/
+
+/* Responsive CSS  */
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+	
+
+ }
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+	.navbar-expand-lg .navbar-nav .nav-link {
+		margin-left: 0px;
+	}
+	.overlay {
+    	padding: 150px 0px 150px 0px;
+	}
+	.b_con h1 {
+    	font-size: 42px;
+    	letter-spacing: 5px;
+    	padding-bottom: 30px;
+	}	
+	.b_con a {
+    	padding: 10px 20px;
+    }	
+    .abt_con h3 {
+    	font-size: 22px;
+    }	
+    .abt_con p {
+    	font-size: 13px;
+    	padding: 5px 0px 20px 0px;
+	}
+	.about {
+    	padding: 50px 0px;
+	}
+	.ser_con {
+    	padding: 56px 47px 54px 47px;
+    	text-align: center;
+	}
+	.ser_con .s_con span {
+    	font-size: 13px;
+    }
+    .ser_con .s_con p {
+    	font-size: 12px;
+    	padding: 10px 0px 0px 0px;
+	}
+	.s_con {
+		padding-top: 20px;
+	}
+	.service {
+    	padding-bottom: 50px;
+	}
+	.works h2 {
+    	padding-bottom: 25px;
+    	font-size: 24px;
+	}
+	.works {
+    	padding-bottom: 50px;
+	}
+	.achievements {
+		padding: 5px 0px 5px 0px;
+	}
+	.a_con h6 {
+    	font-size: 24px;
+    	padding: 5px 0px 5px 0px;
+	}
+	.blog h2 {
+    	padding: 40px 0px 20px 0px;
+    	font-size: 26px;
+    }
+    .blog_con h6 {
+    	font-size: 15px;
+    	padding-top: 10px;	
+    }
+    .blog_con p {
+    	font-size: 12px;
+   		padding: 10px 0px 15px 0px;
+	}
+	.blog {
+    	padding-bottom: 50px;
+    }	
+    .work_con h6 {
+    	font-size: 18px;
+    }
+    .work_con a {
+    	font-size: 12px;
+		padding: 10px 20px;
+	}	
+	.work_with {
+    	height: 80px;
+    }	
+    .f_one {
+    	margin: 0px 40px;
+	}
+	.f_two a {
+    	font-size: 12px;
+    }	
+    .f_one p {
+   		font-size: 14px;
+   	}
+   	.footer h4 {  
+		font-size: 12px;
+		margin-top: 0px;
+	}
+	.f_two {
+    	padding-bottom: 20px;
+    	margin-left: 50px;
+	}
+	.footer {
+    	padding: 40px 0px 30px 0px;
+	}		
+
+}
+
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+	.overlay {
+    	padding: 80px 0px 80px 0px;
+	}
+	.b_con h1 {
+    	font-size: 32px;
+    	letter-spacing: 3px;
+    	padding-bottom: 25px;
+	}
+	.abt_con {
+    	text-align: center;
+   	 	padding-top: 50px;
+	}
+
+
+ }
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+
+/*// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width*/
